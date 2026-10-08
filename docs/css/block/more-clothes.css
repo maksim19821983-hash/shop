@@ -1,0 +1,13 @@
+.more--clothes {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.67s ;
+    margin-top: 30px;
+}
+
+
+.more--clothes--open {
+    max-height: 2000px; 
+    opacity: 1;
+}
